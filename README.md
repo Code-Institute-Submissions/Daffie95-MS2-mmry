@@ -30,8 +30,9 @@ When the game is finished, the timer stops.
 
 
 # 3. Updates.
-> 1.1 (22-12-2020)
->> added index.html, styles.css, scripts.js.
+> 0.1 (22-12-2020)
+>> * added images for front and back cards <br>
+>> * added index.html, styles.css, scripts.js.
 
 # 4. Planned Updates.
 >
