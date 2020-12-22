@@ -25,16 +25,19 @@ JavaScript MS Project Code Institute 2020
 * The game will start a timer when a player starts the game.<br>
 When the game is finished, the timer stops.
 * The game will have a restart button to let players reset the game.
-* A modal will be shown when the player finishes the game.
+* A message will be shown when the player finishes the game.
 >
 
 
 # 3. Updates.
 > ### *0.2* (22-12-2020)
->> * starting script formating
+>> * 
+>> * tested the targeting selector for the function to flip the cards
+>> * added querySelectorAll to target .memory-cards in *index.html*
+>> * starting script formating in *scripts.js*
 
 >  ### *0.1* (22-12-2020)
->> * updated styles.css with comments<br>
+>> * updated *styles.css* with comments<br>
 >> * added active transition<br>
 >> * added hover transition<br>
 >> * updated cards position<br>
@@ -42,8 +45,8 @@ When the game is finished, the timer stops.
 >> * added color to card background<br>
 >> * added colors to background <br>
 >> * added images for front and back cards <br>
->> * updated index.html<br>
->> * added index.html, styles.css, scripts.js.
+>> * updated *index.html*<br>
+>> * added *index.html*, *styles.css*, *scripts.js*.
 
 # 4. Planned Updates.
 >
@@ -64,4 +67,5 @@ I will try my best with the time I have. <br>
 I will make it very clear that there will be a lot of external code and resources used in this project.<br>
 I have not been able to stay 100% up to date with the course module and I will not be able to finish this<br>
 project in time if I'd choose to catch up on that before finishing this project. 
+I assure that this code is 100% by hand and that I will only have been following external resource and not have copied anything.
 >
