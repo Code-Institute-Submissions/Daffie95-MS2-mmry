@@ -1,5 +1,5 @@
-# Milestone project 2 
-JavaScript MS Project 
+# Milestone project 2 - MMrY
+JavaScript MS Project Code Institute 2020
 
 >
 
@@ -13,7 +13,6 @@ JavaScript MS Project
 6. Resources Used.
 7. External Code Used.
 8. Additional Comments.
-
 >
 
 # 1.Conclusions
