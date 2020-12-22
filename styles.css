@@ -17,7 +17,9 @@ body {
     display: flex;
     flex-wrap: wrap;
     border: 2px solid yellow;
+    perspective: 1000px; /* give the container a depth of 1kPX */
 }
+
 /* individual card size & position */
 .memory-card{
     width:calc(25% - 10px);
@@ -25,7 +27,9 @@ body {
     position: relative;
     margin: 5px;
     transform: scale(1);
+    transform-style: preserve-3d; /* assures that the child element is on 3D plane */
 }
+
 /* card hover effect */
 .memory-card:hover{
     transform: scale(.95);
@@ -35,6 +39,10 @@ body {
 .memory-card:active{
     transform: scale(.97);
     transition: transform 0.2s;
+}
+
+.memory-card.flip{
+    transform: rotateY(180deg);
 }
 /* individual card styling */
 .card-front,
@@ -46,4 +54,9 @@ body {
     border-radius: 5px;
     background: rgb(70, 1, 1);
     border: 2px solid green;
+    backface-visibility: hidden;
+}
+
+.card-front{
+    transform: rotateY(180deg);
 }
