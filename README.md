@@ -31,6 +31,12 @@ When the game is finished, the timer stops.
 
 # 3. Updates.
 > 0.1 (22-12-2020)
+>> * added active transition
+>> * added hover transition
+>> * updated cards position
+>> * updated position of section element
+>> * added color to card background
+>> * added colors to background 
 >> * added images for front and back cards <br>
 >> * added index.html, styles.css, scripts.js.
 

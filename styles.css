@@ -6,21 +6,34 @@
 
 body {
     height: 100vh;
+    display: flex;
     background:#C05252;
 }
 .mmry-game{
     width: 640px;
     height: 640px;
+    margin: auto;
     display: flex;
     flex-wrap: wrap;
     border: 2px solid yellow;
 }
 .memory-card{
-    width: 25%;
-    height: 33.33%;
+    width:calc(25% - 10px);
+    height:calc(33.33% -  10px);
     position: relative;
     margin: 5px;
+    transform: scale(1);
 }
+.memory-card:hover{
+    transform: scale(.95);
+    transition: transform 0.2s;
+}
+
+.memory-card:active{
+    transform: scale(.97);
+    transition: transform 0.2s;
+}
+
 .card-front,
 .card-back{
     position: absolute;
@@ -28,6 +41,6 @@ body {
     height: 100%;
     padding: 10px;
     border-radius: 5px;
-    background: rgb(119, 3, 3);
+    background: rgb(70, 1, 1);
     border: 2px solid green;
 }
