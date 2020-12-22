@@ -8,3 +8,19 @@ body {
     height: 100vh;
     background:#C05252;
 }
+
+.mmry-game{
+    border: 2px solid yellow;
+}
+.memory-card{
+    border: 2px solid rgb(255, 192, 236);
+}
+
+.card-front,
+.card-back{
+    border: 2px solid green;
+}
+
+img {
+    width: 100px;
+}
