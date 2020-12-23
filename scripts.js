@@ -14,22 +14,32 @@ function flipCard() {
         // second click (flip second card)
         flippedCard = false;
         secondaryCard = this;
+        testForMatch()
+    };
+};
 
-        //are cards matching
-        if(primaryCard.dataset.cardframe === secondaryCard.dataset.cardframe) {
-            primaryCard.removeEventListener('click', flipCard);
-            secondaryCard.removeEventListener('click', flipCard);
-            console.log(primaryCard.dataset.cardframe === secondaryCard.dataset.cardframe);
-        } else {
-            // are cards unmatched
-setTimeout (() => {
-            primaryCard.classList.remove('flip');
-            secondaryCard.classList.remove('flip');
-            console.log('Cards do not match, flip back');
-}, 1500)
+function testForMatch(){
+   //cards matching
+   if(primaryCard.dataset.cardframe === secondaryCard.dataset.cardframe) {  
+       lockedCards()     
+} else {
+    //cards unmatched
+unmatchedCards()
 
-        }
-    }
+};  
+}
+// cards unmatched function
+function unmatchedCards(){
+    setTimeout (() => {
+        primaryCard.classList.remove('flip');
+        secondaryCard.classList.remove('flip');
+        console.log('Cards do not match, flip back');
+    }, 1000)
+}
+// cards matched function
+function lockedCards(){
+    primaryCard.removeEventListener('click', flipCard);
+    secondaryCard.removeEventListener('click', flipCard);  
 }
 
 cards.forEach(card => card.addEventListener('click', flipCard))
