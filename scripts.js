@@ -15,9 +15,13 @@ if(!hasflippedCard){
     hasFlippedCard = false;
     secondaryCard = this;
 
-    // testing match trough dataset
-    console.log(primaryCard.dataset.cardframe)
-    console.log(secondaryCard.dataset.cardframe)
+    //are cards matching?
+    if(primaryCard.dataset.cardframe === secondaryCard.dataset.cardframe){
+       primaryCard.removeEventListener('click', flipCard)
+       secondaryCard.removeEventListener('click', flipCard)
+    }
+    // testing that eventListener is removed
+    console.log('eventListener is removed')
 }
 }
 
