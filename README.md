@@ -31,6 +31,7 @@ When the game is finished, the timer stops.
 
 # 3. Updates.
 > ### *0.3*
+>> * ending work
 >> * refactured functions in *scripts.js*
 >> * removed scripts2.js
 >> * fixed errors * 1. & 2.*
