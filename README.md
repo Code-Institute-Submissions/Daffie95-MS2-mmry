@@ -30,6 +30,12 @@ When the game is finished, the timer stops.
 
 
 # 3. Updates.
+> ### *0.3*
+>> * removed scripts2.js
+>> * fixed errors * 1. & 2.*
+>> * added resources used
+>> * moved projects to VSCode
+
 > ### *0.2* (23-12-2020)
 >> * set a timeout for when cards are not matching, so we are still able to see what card we click (fixed)
 >> * Testing matching the cards using the data-* HTML attribute
@@ -57,14 +63,15 @@ When the game is finished, the timer stops.
 >
 
 # 5. Bugs & Errors
-> First clicked card becomes unclickable after 3 clicks (regardles of what card you click)
+> 1. First clicked card becomes unclickable after 3 clicks (regardles of what card you click)
 >>
-> First clicked card is always firing the function of matching the cards.  
+> 2. First clicked card is always firing the function of matching the cards.  
 >>
 
 
 # 6. Resources Used.
->
+> [appendChild](https://developer.mozilla.org/en-US/docs/Web/API/Node/appendChild)
+> [Marina-Ferreira Git](https://marina-ferreira.github.io/memory-game/)
 
 # 7. External Code Used.
 >
