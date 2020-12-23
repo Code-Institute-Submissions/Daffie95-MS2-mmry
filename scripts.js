@@ -1,16 +1,23 @@
 // selecting the cards in the DOM from the .memory-card class
 const cards = document.querySelectorAll('.memory-card');
 
-let flippedCard = false
+let hasflippedCard = false
 let primaryCard, secondaryCard;
 
 function flipCard(){
-    // first click adds flip, second click removes it.
 this.classList.toggle('flip')
-if(!flippedCard){
-    flippedCard = true;
+if(!hasflippedCard){
+    // first click (flip)
+    hasflippedCard = true;
     primaryCard = this;
-    console.log(flippedCard, primaryCard) // testing selection of elements in the function
+} else {
+    // second click (flip second card)
+    hasFlippedCard = false;
+    secondaryCard = this;
+
+    // testing match trough dataset
+    console.log(primaryCard.dataset.cardframe)
+    console.log(secondaryCard.dataset.cardframe)
 }
 }
 
