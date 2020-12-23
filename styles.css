@@ -27,7 +27,9 @@ body {
     position: relative;
     margin: 5px;
     transform: scale(1);
-    transform-style: preserve-3d; /* assures that the child element is on 3D plane */
+    transform-style: preserve-3d; /* assures that child element is on 3D plane */
+    transition: 0.4s;
+
 }
 
 /* card hover effect */
@@ -43,6 +45,7 @@ body {
 
 .memory-card.flip{
     transform: rotateY(180deg);
+    transition: transform 0.2s;
 }
 /* individual card styling */
 .primary-card,
@@ -59,4 +62,5 @@ body {
 
 .primary-card{
     transform: rotateY(180deg);
+    transition: transform 0.2s;
 }
