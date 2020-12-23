@@ -30,8 +30,10 @@ When the game is finished, the timer stops.
 
 
 # 3. Updates.
+> ### *0.2* (23-12-2020)
+>> * Updated element classes to easely be difined in *index.html* & *styles.css*
+
 > ### *0.2* (22-12-2020)
->> 
 >> * updated depth and 3d effects in *styles.css* for selector and .memory-cards
 >> * tested the targeting selector for the function to flip the cards
 >> * added querySelectorAll to target .memory-cards in *index.html*
