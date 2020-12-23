@@ -31,6 +31,8 @@ When the game is finished, the timer stops.
 
 # 3. Updates.
 > ### *0.2* (23-12-2020)
+
+>> * set a timeout for when cards are not matching, so we are still able to see what card we click (fixed)
 >> * Testing matching the cards using the data-* HTML attribute
 >> * Updated element classes to easely be difined in *index.html* & *styles.css*
 
