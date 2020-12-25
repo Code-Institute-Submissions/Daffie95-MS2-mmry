@@ -30,6 +30,9 @@ When the game is finished, the timer stops.
 
 
 # 3. Updates.
+> ### *0.4*
+>> * Reverted back to before refactured due to bugs or breaking the code
+
 > ### *0.3*
 >> * ending work
 >> * refactured functions in *scripts.js*
