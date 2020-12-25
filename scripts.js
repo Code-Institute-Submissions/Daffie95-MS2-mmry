@@ -17,26 +17,24 @@ function flipCard() {
    testForMatch();
    }
 
-function testForMatch() {
-  //cards matching
-  if (primaryCard.dataset.cardframe ===
-     secondaryCard.dataset.cardframe) {
-       // cards matched function
-      primaryCard.removeEventListener('click', flipCard);
-      secondaryCard.removeEventListener('click', flipCard);
-     } else {
-       // cards unmatched function with timer
-      setTimeout(() => {
-        primaryCard.classList.remove('flip');
-        secondaryCard.classList.remove('flip');
-    }, 1200);
-  }
+function testForMatch(){
+  let testMatch = primaryCard.dataset.cardframe ===
+  secondaryCard.dataset.cardframe;
+  testMatch ? cardsMatchingDisable() : cardsNotMatching();
 }
 
+function cardsMatchingDisable(){
+  primaryCard.removeEventListener('Click', flipCard)
+  secondaryCard.removeEventListener('Click', flipCard)
+}
 
+function cardsNotMatching(){
+  setTimeout(() => {
+    primaryCard.classList.remove('flip');
+    secondaryCard.classList.remove('flip');
+}, 1200);
 
-
-
+}
 
 
 
