@@ -40,7 +40,6 @@ function disableMatchedCards() {
 }
 
 function flipUnmatchedCards() {
-  lockBoard = true;
 
   setTimeout(() => {
     primaryCard.classList.remove("flip");
