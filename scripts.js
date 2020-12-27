@@ -50,7 +50,7 @@ function flipUnmatchedCards() {
 }
 
 function resetCards() {
-  [hasFlippedCard, lockBoard] = [false, false];
+  [flippedCard, lockBoard] = [false, false];
   [primaryCard, secondaryCard] = [null, null];
 }
 // shuffle the cards using internal flex-item positioning
