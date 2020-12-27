@@ -35,7 +35,7 @@ When the game is finished, the timer stops.
 
 # 3. Updates.
 > ### *0.5*
->> 
+>> * updated colors
 >> * included a shuffling function using flex-items internal hierarchy
 >> * tried re-refactoring to see if primaryCard bug persists
 >> * updated code to stop matched cards from being clicked again
