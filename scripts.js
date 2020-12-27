@@ -25,6 +25,7 @@ function flipCard() {
        primaryCard.classList.remove('flip');
        secondaryCard.classList.remove('flip');
      }, 1300)
+     return;
   }
 }
 }
