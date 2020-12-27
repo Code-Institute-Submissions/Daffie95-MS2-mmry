@@ -90,7 +90,7 @@ When the game is finished, the timer stops.
 > [Marina-Ferreira Git](https://marina-ferreira.github.io/memory-game/)
 
 # 7. External Code Used.
->
+> [Marina-Ferreira Git](https://marina-ferreira.github.io/memory-game/)
 
 # 8. Additional Comments.
 This year has been hard on all of us, and as I mentioned in my previous MS Project I've been having some difficoulties with finding time to commit into my studying.
