@@ -30,6 +30,8 @@ When the game is finished, the timer stops.
 
 
 # 3. Updates.
+> ### *0.5
+>> updated code to stop matched cards from being clicked again
 > ### *0.4*
 >> * retried refactoring of JS functions and now works.
 >> * Reverted back to before refactured due to bugs or breaking the code
@@ -90,4 +92,4 @@ I will make it very clear that there will be a lot of external code and resource
 I have not been able to stay 100% up to date with the course module and I will not be able to finish this<br>
 project in time if I'd choose to catch up on that before finishing this project. 
 I assure that this code is 100% by hand and that I will only have been following external resource and not have copied anything.
->
+## Due to very demanding Covid-19 problems in my family troughout december I have been set quite far behind, I have followed different opensource projects rather than speeding trough the course modules, however I have found them very good and explanitary. I know this is not ideal but to have this project submitted on time this was the only way I saw to be even close. 
