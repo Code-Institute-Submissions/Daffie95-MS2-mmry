@@ -31,6 +31,7 @@ When the game is finished, the timer stops.
 
 # 3. Updates.
 > ### *0.5
+>> tried re-refactoring to see if primaryCard bug persists
 >> updated code to stop matched cards from being clicked again
 > ### *0.4*
 >> * retried refactoring of JS functions and now works.
