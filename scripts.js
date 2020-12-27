@@ -54,4 +54,12 @@ function resetCards(){
   [primaryCard, secondaryCard] = [null, null];
 }
 
+
+(function shuffle(){
+  cards.forEach(card => {
+    let newPos = Math.floor(Math.random() * 12);
+    card.style.order = newPos;
+  })
+})();
+
 cards.forEach((card) => card.addEventListener("click", flipCard));
