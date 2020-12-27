@@ -39,8 +39,6 @@ function disableMatchedCards() {
 }
 
 function flipUnmatchedCards() {
-  lockBoard = true;
-
   setTimeout(() => {
     primaryCard.classList.remove("flip");
     secondaryCard.classList.remove("flip");
