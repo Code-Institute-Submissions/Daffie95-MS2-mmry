@@ -16,7 +16,11 @@ JavaScript MS Project Code Institute 2020
 >
 
 # 1.Conclusions
->
+> While I know that I could've done a much better project under the correct circumstances, it's making me feel quite sad that I am not able to deliver something that is up to MY standards. I am mentioning this in the additional comments below (8.). Due to multiple family members falling ill during the Covid-19 pandemic, I am put under very high stress and it is hard for me managing time to help my family with daily things they need help with and finding time to properly study.<br>
+
+>this project is finished to the point of what I am capable with the given time I managed to pull away from other things. It is however not a depiction of what I am capable. I will most likely fail this milestone project, but there was nothing more I could've done with it.
+
+The game works to a very very basic degree. The shuffle function works, which in my eyes was the most important function alongside getting the cards to match. 
 
 # 2. Project Planning.
 * Cards will mix on load or restart of the page.
@@ -30,9 +34,12 @@ When the game is finished, the timer stops.
 
 
 # 3. Updates.
-> ### *0.5
->> tried re-refactoring to see if primaryCard bug persists
->> updated code to stop matched cards from being clicked again
+> ### *0.5*
+>> 
+>> * included a shuffling function using flex-items internal hierarchy
+>> * tried re-refactoring to see if primaryCard bug persists
+>> * updated code to stop matched cards from being clicked again
+
 > ### *0.4*
 >> * retried refactoring of JS functions and now works.
 >> * Reverted back to before refactured due to bugs or breaking the code
