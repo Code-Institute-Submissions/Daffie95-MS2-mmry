@@ -2,7 +2,7 @@
 const cards = document.querySelectorAll(".memory-card");
 
 //  declaring that no cards have been clicked
-let hasFlippedCard = false;
+let flippedCard = false;
 let lockBoard = false;
 let primaryCard, secondaryCard;
 
@@ -15,11 +15,12 @@ function flipCard() {
 
   if (!flippedCard) {
     // first click (flip)
-    hasFlippedCard = true;
+    flippedCard = true;
     primaryCard = this;
 
     return;
   }
+
   //  second click (flip)
   secondaryCard = this;
   matchCheck();
@@ -39,6 +40,8 @@ function disableMatchedCards() {
 }
 
 function flipUnmatchedCards() {
+  lockBoard = true;
+
   setTimeout(() => {
     primaryCard.classList.remove("flip");
     secondaryCard.classList.remove("flip");
@@ -51,7 +54,7 @@ function resetCards() {
   [hasFlippedCard, lockBoard] = [false, false];
   [primaryCard, secondaryCard] = [null, null];
 }
-
+// shuffle the cards using internal flex-item positioning
 (function shuffle() {
   cards.forEach((card) => {
     let newPos = Math.floor(Math.random() * 12);
