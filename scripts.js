@@ -8,6 +8,9 @@ let primaryCard, secondaryCard;
 
 // function to flip cards
 function flipCard() {
+  if (lockedBoard) return;
+
+
   this.classList.add("flip");
   if (!flippedCard) {
     // first click (flip)
@@ -35,9 +38,12 @@ function disableMatchedCards(){
 }
 
 function flipUnmatchedCards() {
+  lockedBoard = true;
   setTimeout(() => {
     primaryCard.classList.remove('flip');
     secondaryCard.classList.remove('flip');
+
+    lockedBoard = false;
   }, 1300)
 }
 cards.forEach((card) => card.addEventListener("click", flipCard));
