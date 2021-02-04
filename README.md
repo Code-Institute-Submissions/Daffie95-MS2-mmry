@@ -37,8 +37,12 @@ There will be roughly about 5 different functions needed to create a finished pr
 
 # 2. Updates Timeline.
 > ### *0.6*
-> * Moved previous README.md to _Old and added it to .gitignore
-
+> * Moved previous README.md to _Old/ and added it to .gitignore
+> * Created a new README.md to match current project. 
+> * Updated the new README.md with Table of Contents.
+> * Updated the new README.md with a more detailed Planning section.
+> * Uploaded a wireframe to the Wireframe/.
+> * Added Updates from _old-README.md to README.md.
 > ### *0.5*
 > * updated colors
 > * included a shuffling function using flex-items internal hierarchy
