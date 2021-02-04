@@ -18,6 +18,10 @@ As a small disclaimer this is a continuation of a previously failed project and 
 #### 7. TBA
 
 # 1. Project Planning.
+The idea for this project came to me when I had a discussion with a friend about dementia, and how small and continous activation of the brain does tremendous work to battle dementia.
+So I decided that my Project would be a memory game. Memory games are usually small and consize of a number of cards that all has a matching counterpart. So to finish the game the user will need to find every two paris of card in the game to complete it.
+All the cards will have the same backside to not visualy disrupt the game or make it unclear, while as mentioned above there will be 6 different cards, each with another exact match, giving us 12 cards in the game. 
+
 
 # 2. Updates Timeline.
 # 3. Planned Updates.
