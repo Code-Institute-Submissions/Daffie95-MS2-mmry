@@ -5,6 +5,8 @@ MMrY, a very original short for Memory is a small and easely understood game tha
 This game is part of a project done during a Full Stack Dev Course supplied by Code Institute©. Both me in the role as creator and the Institute has full rights to this projects, to clone or fork the repository on [GitHub](https://github.com/Daffie95/MS2-mmry).
 Below will be a full summary of the project, from a creation stage and following trough to a finished project. 
 <br>
+<br>
+As a small disclaimer this is a continuation of a previously failed project and old files can be found in the _Old directory.
 
 ### Table of Contents.
 #### 1. Project Planning.
@@ -16,6 +18,7 @@ Below will be a full summary of the project, from a creation stage and following
 #### 7. TBA
 
 # 1. Project Planning.
+
 # 2. Updates Timeline.
 # 3. Planned Updates.
 # 4. Bugs & Errors.
