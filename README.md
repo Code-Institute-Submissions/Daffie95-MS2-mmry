@@ -29,6 +29,10 @@ Inital wireframes of the project can be found in the Wireframe/. Thanks goes out
 There are different techniques to make this project work. The webpages, the landing page and the game page will consist of HTML and CSS to create an intuitive layout and easy on the eyes design. 
 I dont want to complicate things, as the target audience might be individuals that struggles with disorders, and may not handle aggressive colorpalettes very well. 
 Alongside the  HTML and CSS the main functionalities will be utilizing JavaScript to create a functional memory game.
+<br>
+<br>
+Using a JavaScript function that counts the card and the given ID (I will use the Data attribute to connect the HTML element with the JavaScript Funtion), the function will initially shuffle each card on load and only shuffle if the page is refreshed and/or the 'Restart' button is pressed.
+There will be roughly about 5 different functions needed to create a finished project. One to  allow cards to flip, one to check for a match between the two flipped cards, one to disable the two clicked cards if the cards match, and one to unflip cards if they dont match, and finally a function to shuffle all the cards upon loading the page.
 
 
 # 2. Updates Timeline.
