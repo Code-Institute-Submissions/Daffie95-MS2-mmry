@@ -36,6 +36,9 @@ There will be roughly about 5 different functions needed to create a finished pr
 
 
 # 2. Updates Timeline.
+> ### *0.6*
+> * Moved previous README.md to _Old and added it to .gitignore
+
 > ### *0.5*
 > * updated colors
 > * included a shuffling function using flex-items internal hierarchy
@@ -77,7 +80,7 @@ There will be roughly about 5 different functions needed to create a finished pr
 > * updated *index.html*<br>
 > * added *index.html*, *styles.css*, *scripts.js*.
 
-# 3. Planned Updates.
+# 3. Planned Updates. 
 # 4. Bugs & Errors.
 # 5. Conclusions.
 # 6. Additional Comments.
