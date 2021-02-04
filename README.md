@@ -84,8 +84,25 @@ There will be roughly about 5 different functions needed to create a finished pr
 > * updated *index.html*<br>
 > * added *index.html*, *styles.css*, *scripts.js*.
 
-# 3. Planned Updates. 
+# 3. Planned Updates. (In order of prioritization)
+1. Add a landingpage to match wirefram.
+2. Add restart button to game page.
+3. Fix error where players can break out of the fuction that clicks the cards.(read more in 4.)
+4. Add notification upon completing the game.
+
+
 # 4. Bugs & Errors.
+> 1.
+>> <b>Expected Result:</b>
+Clicking a card 3 times without finding the correct match should continue to turn the card face down.
+>> <b>Actual Result:</b>
+Clicking the card 3 times locks the card you clicked the first time. 
+>>> Conclusion:
+
+>>> Fixed: No (2021-02-04)
+
+> 2.
+
 # 5. Conclusions.
 # 6. Additional Comments.
 # 7. TBA
