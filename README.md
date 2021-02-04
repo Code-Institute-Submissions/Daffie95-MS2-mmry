@@ -21,6 +21,14 @@ As a small disclaimer this is a continuation of a previously failed project and 
 The idea for this project came to me when I had a discussion with a friend about dementia, and how small and continous activation of the brain does tremendous work to battle dementia.
 So I decided that my Project would be a memory game. Memory games are usually small and consize of a number of cards that all has a matching counterpart. So to finish the game the user will need to find every two paris of card in the game to complete it.
 All the cards will have the same backside to not visualy disrupt the game or make it unclear, while as mentioned above there will be 6 different cards, each with another exact match, giving us 12 cards in the game. 
+<br>
+<br>
+Inital wireframes of the project can be found in the Wireframe/. Thanks goes out to UXPin for allowing me to use their software.
+<br>
+<br>
+There are different techniques to make this project work. The webpages, the landing page and the game page will consist of HTML and CSS to create an intuitive layout and easy on the eyes design. 
+I dont want to complicate things, as the target audience might be individuals that struggles with disorders, and may not handle aggressive colorpalettes very well. 
+Alongside the  HTML and CSS the main functionalities will be utilizing JavaScript to create a functional memory game.
 
 
 # 2. Updates Timeline.
