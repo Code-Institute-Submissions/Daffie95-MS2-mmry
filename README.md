@@ -36,6 +36,47 @@ There will be roughly about 5 different functions needed to create a finished pr
 
 
 # 2. Updates Timeline.
+> ### *0.5*
+> * updated colors
+> * included a shuffling function using flex-items internal hierarchy
+> * tried re-refactoring to see if primaryCard bug persists
+> * updated code to stop matched cards from being clicked again
+
+> ### *0.4*
+> * retried refactoring of JS functions and now works.
+> * Reverted back to before refactured due to bugs or breaking the code
+
+> ### *0.3*
+> * ending work
+> * refactured functions in *scripts.js*
+> * removed scripts2.js
+> * fixed errors * 1. & 2.*
+> * added resources used
+> * moved projects to VSCode
+
+> ### *0.2* (23-12-2020)
+> * set a timeout for when cards are not matching, so we are still able to see what card we click (fixed)
+> * Testing matching the cards using the data-* HTML attribute
+> * Updated element classes to easely be difined in *index.html* & *styles.css*
+
+> ### *0.2* (22-12-2020)
+> * updated depth and 3d effects in *styles.css* for selector and .memory-cards
+> * tested the targeting selector for the function to flip the cards
+> * added querySelectorAll to target .memory-cards in *index.html*
+> * starting script formating in *scripts.js*
+
+>  ### *0.1* (22-12-2020)
+> * updated *styles.css* with comments<br>
+> * added active transition<br>
+> * added hover transition<br>
+> * updated cards position<br>
+> * updated position of section element<br>
+> * added color to card background<br>
+> * added colors to background <br>
+> * added images for front and back cards <br>
+> * updated *index.html*<br>
+> * added *index.html*, *styles.css*, *scripts.js*.
+
 # 3. Planned Updates.
 # 4. Bugs & Errors.
 # 5. Conclusions.
