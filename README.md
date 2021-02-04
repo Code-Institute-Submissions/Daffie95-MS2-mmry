@@ -102,6 +102,13 @@ Clicking the card 3 times locks the card you clicked the first time.
 >>> Fixed: No (2021-02-04)
 
 > 2.
+>> <b>Expected Result:</b>
+The card you click regardless of which of the 12 cards you click will call the EventListener.
+>> <b>Actual Result:</b>
+The first clicked card always fires as if the EventListener is stuck firing on the card the user clicked first.
+>>> Conclusion:
+
+>>> Fixed: No (2021-02-04)
 
 # 5. Conclusions.
 # 6. Additional Comments.
