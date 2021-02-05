@@ -21,6 +21,11 @@ button.btn.btn-lg.btn-block {
 a.nav-link{
    color: white !important; 
 }
+
+/* Positions H3 correctly */
+H3 {
+    padding: 35px;
+}
 /* section position */
 body {
     height: 100vh;
