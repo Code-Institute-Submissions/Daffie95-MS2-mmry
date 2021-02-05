@@ -1,7 +1,7 @@
 # MMrY - The Christmas Memory Game.
 
 ### Welcome to MMrY. 
-MMrY, a very original short for Memory is a small and easely understood game that is developed with the goal to create an accesible environment to keep your brain on top of things. 
+**MMrY**, a very original short name for Memory. It is a small and easely understood game that is developed with the goal to create an accesible environment to keep your brain on top. 
 This game is part of a project done during a Full Stack Dev Course supplied by Code Institute©. Both me in the role as creator and the Institute has full rights to this projects, to clone or fork the repository on [GitHub](https://github.com/Daffie95/MS2-mmry).
 Below will be a full summary of the project, from a creation stage and following trough to a finished project. 
 <br>
@@ -36,67 +36,68 @@ There will be roughly about 5 different functions needed to create a finished pr
 
 
 # 2. Updates Timeline.
-> ### *0.7*
-> * Updated layour and color palette.
-> * Added a landingpage.
-> * Added styling to Landing page.
-> * Added Navigation between landingpage and gamepage.
-> * Styled the Landingpage.
-> * Added comments to new elements.
-> * Fixed Scaling issues where cards would span outside of the screen on smaller devices.
-> * Fixed Image rendering on smaller devices
+ ### *0.7*
+> Updated layour and color palette. <br>
+> Added a landingpage. <br>
+> Added styling to Landing page. <br>
+> Added Navigation between landingpage and gamepage. <br>
+> Styled the Landingpage. <br>
+> Added comments to new elements. <br>
+> Fixed Scaling issues where cards would span outside of the screen on smaller devices. <br>
+> Fixed Image rendering on smaller devices <br>
+> Updated and Organized 2. Updates Timeline.
 <br>
 > ### *0.6*
-> * Moved previous README.md to _Old/ and added it to .gitignore
-> * Created a new README.md to match current project. 
-> * Updated the new README.md with Table of Contents.
-> * Updated the new README.md with a more detailed Planning section.
-> * Uploaded a wireframe to the Wireframe/.
-> * Added Updates from _old-README.md to README.md.
+> Moved previous README.md to _Old/ and added it to .gitignore <br>
+> Created a new README.md to match current project.  <br>
+> Updated the new README.md with Table of Contents. <br>
+> Updated the new README.md with a more detailed Planning section. <br>
+> Uploaded a wireframe to the Wireframe/. <br>
+> Added Updates from _old-README.md to README.md. <br>
 <br>
 > ### *0.5*
-> * updated colors
-> * included a shuffling function using flex-items internal hierarchy
-> * tried re-refactoring to see if primaryCard bug persists
-> * updated code to stop matched cards from being clicked again
+> updated colors<br>
+> included a shuffling function using flex-items internal hierarchy<br>
+> tried re-refactoring to see if primaryCard bug persists<br>
+> updated code to stop matched cards from being clicked again<br>
 <br>
 > ### *0.4*
-> * retried refactoring of JS functions and now works.
-> * Reverted back to before refactured due to bugs or breaking the code
+> retried refactoring of JS functions and now works.<br>
+> Reverted back to before refactured due to bugs or breaking the code<br>
 <br>
 > ### *0.3*
-> * ending work
-> * refactured functions in *scripts.js*
-> * removed scripts2.js
-> * fixed errors * 1. & 2.*
-> * added resources used
-> * moved projects to VSCode
+> ending work<br>
+> refactured functions in *scripts.js*<br>
+> removed scripts2.js<br>
+> fixed errors * 1. & 2.*<br>
+> added resources used<br>
+> moved projects to VSCode<br>
 <br>
 > ### *0.2* (23-12-2020)
-> * set a timeout for when cards are not matching, so we are still able to see what card we click (fixed)
-> * Testing matching the cards using the data-* HTML attribute
-> * Updated element classes to easely be difined in *index.html* & *styles.css*
+> set a timeout for when cards are not matching, so we are still able to see what card we click (fixed)<br>
+> Testing matching the cards using the data-* HTML attribute<br>
+> Updated element classes to easely be difined in *index.html* & *styles.css*<br>
 <br>
 > ### *0.2* (22-12-2020)
-> * updated depth and 3d effects in *styles.css* for selector and .memory-cards
-> * tested the targeting selector for the function to flip the cards
-> * added querySelectorAll to target .memory-cards in *index.html*
-> * starting script formating in *scripts.js*
+> updated depth and 3d effects in *styles.css* for selector and .memory-cards<br>
+> tested the targeting selector for the function to flip the cards<br>
+> added querySelectorAll to target .memory-cards in *index.html*<br>
+> starting script formating in *scripts.js*<br>
 <br>
 >  ### *0.1* (22-12-2020)
-> * updated *styles.css* with comments<br>
-> * added active transition<br>
-> * added hover transition<br>
-> * updated cards position<br>
-> * updated position of section element<br>
-> * added color to card background<br>
-> * added colors to background <br>
-> * added images for front and back cards <br>
-> * updated *index.html*<br>
-> * added *index.html*, *styles.css*, *scripts.js*.
+> updated *styles.css* with comments<br>
+> added active transition<br>
+> added hover transition<br>
+> updated cards position<br>
+> updated position of section element<br>
+> added color to card background<br>
+> added colors to background <br>
+> added images for front and back cards <br>
+> updated *index.html*<br>
+> added *index.html*, *styles.css*, *scripts.js*.
 
 # 3. Planned Updates. (In order of prioritization)
-1. Add a landingpage to match wirefram.
+1. ~~Add a landingpage to match wirefram.~~
 2. Add restart button to game page.
 3. Fix error where players can break out of the fuction that clicks the cards.(read more in 4.)
 4. Add notification upon completing the game.
@@ -104,18 +105,18 @@ There will be roughly about 5 different functions needed to create a finished pr
 
 # 4. Bugs & Errors.
 > 1.
->> <b>Expected Result:</b>
+>> **Expected Result:**
 Clicking a card 3 times without finding the correct match should continue to turn the card face down.
->> <b>Actual Result:</b>
+>> **Actual Result:**
 Clicking the card 3 times locks the card you clicked the first time. 
 >>> Conclusion:
 
 >>> Fixed: No (2021-02-04)
 
 > 2.
->> <b>Expected Result:</b>
+>> **Expected Result:**
 The card you click regardless of which of the 12 cards you click will call the EventListener.
->> <b>Actual Result:</b>
+>> **Actual Result:**
 The first clicked card always fires as if the EventListener is stuck firing on the card the user clicked first.
 >>> Conclusion:
 
