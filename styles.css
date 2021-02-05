@@ -5,11 +5,11 @@
     box-sizing: border-box;
 } */
 
-@media (max-width: 414px) {
-.mmry-game {
-    width: 90%;
-    height: 90%;   
-    }
+@media (max-width: 320) {
+ .memory-card{
+width: 90%;
+
+}
 }  
 
 /* Positions the Nav Pills */
@@ -134,7 +134,7 @@ p.text-center.text-light {
 }
 
 /* sharpen pictures on smaller screen sizes TESTING */
-.sharpen {
+.memory-card {
     image-rendering: -moz-crisp-edges;
     image-rendering: -o-crisp-edges;
     image-rendering: -webkit-optimize-contrast;
