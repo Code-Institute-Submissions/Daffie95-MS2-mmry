@@ -43,6 +43,8 @@ There will be roughly about 5 different functions needed to create a finished pr
 > * Added Navigation between landingpage and gamepage.
 > * Styled the Landingpage.
 > * Added comments to new elements.
+> * Fixed Scaling issues where cards would span outside of the screen on smaller devices.
+> * Fixed Image rendering on smaller devices
 <br>
 > ### *0.6*
 > * Moved previous README.md to _Old/ and added it to .gitignore
