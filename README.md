@@ -98,7 +98,7 @@ There will be roughly about 5 different functions needed to create a finished pr
 
 # 3. Planned Updates. (In order of prioritization)
 1. ~~Add a landingpage to match wirefram.~~
-2. Add restart button to game page.
+2. Add a functional restart button to game page.
 3. Fix error where players can break out of the fuction that clicks the cards.(read more in 4.)
 4. Add notification upon completing the game.
 
@@ -109,16 +109,16 @@ There will be roughly about 5 different functions needed to create a finished pr
 Clicking a card 3 times without finding the correct match should continue to turn the card face down.
 >> **Actual Result:**
 Clicking the card 3 times locks the card you clicked the first time. 
->>> Conclusion:
+>>> Conclusion: This error is resolved, but was fixed back when I used VSCode and I had troubles connecting to Git to push commits.
 
->>> Fixed: No (2021-02-04)
+>>> Fixed: yes (2021-02-05)
 
 > 2.
 >> **Expected Result:**
 The card you click regardless of which of the 12 cards you click will call the EventListener.
 >> **Actual Result:**
 The first clicked card always fires as if the EventListener is stuck firing on the card the user clicked first.
->>> Conclusion:
+>>> Conclusion: -
 
 >>> Fixed: No (2021-02-04)
 
