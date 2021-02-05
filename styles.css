@@ -5,8 +5,9 @@
 }
 
 /* Positions the Nav Pills */
-.nav-position {
+.nav{
     margin: 4px;
+    overflow: hidden;
 }
 /* Sets nav pills fill color */
 .nav-pills .nav-link.active {
@@ -22,9 +23,24 @@ a.nav-link{
    color: white !important; 
 }
 
+a.nav-link:hover {
+    transform: scale(0.95);
+    transition: transform 0.1s;
+    
+}
+    
+
+
 /* Positions H3 correctly */
 H3 {
     padding: 35px;
+}
+button {
+    margin-bottom: 25px;
+}
+
+.button-style {
+    color: rgb(53, 7, 1);
 }
 /* section position */
 body {
