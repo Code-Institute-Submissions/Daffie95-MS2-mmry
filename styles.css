@@ -1,104 +1,122 @@
-*{
+/* * Selector not needed */
+/* *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-}
+} */
 
 /* Positions the Nav Pills */
 .nav{
-    margin: 4px;
-    overflow: hidden;
+margin: 4px;
+overflow: hidden;
 }
 /* Sets nav pills fill color */
 .nav-pills .nav-link.active {
-    background-color: rgb(53, 7, 1);
-    }
+background-color: rgb(53, 7, 1);
+}
 
 /* Sets button text color */
 button.btn.btn-lg.btn-block {
-    color: rgb(53, 7, 1);
+color: rgb(53, 7, 1);
 }
 
+/* sets link text to white */
 a.nav-link{
-   color: white !important; 
+color: white !important; 
 }
 
+/* hover effect for navs */
 a.nav-link:hover {
-    transform: scale(0.95);
-    transition: transform 0.1s;
-    
+transform: scale(1.20);
+transition: transform 0.3s;
 }
-    
 
-
-/* Positions H3 correctly */
+/* Positions H3 */
 H3 {
-    padding: 35px;
-}
-button {
-    margin-bottom: 25px;
+padding: 35px;
 }
 
-.button-style {
-    color: rgb(53, 7, 1);
+/* Positions Play button */
+button {
+margin-bottom: 25px;
 }
+
+/* changes button background on hover */
+.btn:hover{
+background-color:rgb(53, 7, 1);
+overflow: hidden;
+}
+
+/* sets button anchor text color */
+a.button-anchor{
+color: rgb(53, 7, 1);
+}
+
+/* sets button anchor text color on hover */
+a.btn:hover{
+color: white !important;
+}
+
 /* section position */
 body {
-    height: 100vh;
-    display: flex;
-    background:#C05252;
+height: 100vh;
+display: flex;
+background:#C05252;
 }
+
 /* section size & position */
 .mmry-game{
-    width: 640px;
-    height: 640px;
-    margin: auto;
-    display: flex;
-    flex-wrap: wrap;
-    border: 2px solid rgb(53, 7, 1);
-    perspective: 1000px; /* give the container a depth of 1kPX */
+width: 640px;
+height: 640px;
+margin: auto;
+display: flex;
+flex-wrap: wrap;
+border: 2px solid rgb(53, 7, 1);
+perspective: 1000px; /* give the container a depth of 1kPX */
 }
 
 /* individual card size & position */
 .memory-card{
-    width:calc(25% - 10px);
-    height:calc(33.33% -  10px);
-    position: relative;
-    margin: 5px;
-    transform: scale(1);
-    transform-style: preserve-3d; /* assures that child element is on 3D plane */
-    transition: 0.4s;
+width:calc(25% - 10px);
+height:calc(33.33% -  10px);
+position: relative;
+margin: 5px;
+transform: scale(1);
+transform-style: preserve-3d; /* assures that child element is on 3D plane */
+transition: 0.4s;
 
 }
 
 /* card hover effect */
 .memory-card:hover{
-    transform: scale(.95);
-    transition: transform 0.2s;
+transform: scale(.95);
+transition: transform 0.2s;
 }
 /* card click effect */
 .memory-card:active{
-    transform: scale(.97);
-    transition: transform 0.2s;
+transform: scale(.97);
+transition: transform 0.2s;
 }
 
+/* Rotates the card 180* on click */
 .memory-card.flip{
-    transform: rotateY(180deg);
-    transition: transform 0.2s;
+transform: rotateY(180deg);
+transition: transform 0.2s;
 }
+
 /* individual card styling */
 .primary-card,
 .secondary-card{
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    padding: 10px;
-    border-radius: 5px;
-    background: rgb(70, 1, 1);
-    backface-visibility: hidden;
+position: absolute;
+width: 100%;
+height: 100%;
+padding: 10px;
+border-radius: 5px;
+background: rgb(70, 1, 1);
+backface-visibility: hidden;
 }
 
 .primary-card{
-    transform: rotateY(180deg);
-    transition: transform 0.2s;
+transform: rotateY(180deg);
+transition: transform 0.2s;
 }
