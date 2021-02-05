@@ -5,9 +5,16 @@
     box-sizing: border-box;
 } */
 
+@media (max-width: 414px) {
+.mmry-game {
+    width: 90%;
+    height: 90%;   
+    }
+}  
+
 /* Positions the Nav Pills */
 .nav{
-margin: 4px;
+margin: 1rem;
 overflow: hidden;
 }
 /* Sets nav pills fill color */
@@ -33,12 +40,12 @@ transition: transform 0.3s;
 
 /* Positions H3 */
 H3 {
-padding: 35px;
+padding: 2rem;
 }
 
 /* Positions Play button */
 button {
-margin-bottom: 25px;
+margin-bottom: 1.5rem;
 }
 
 /* changes button background on hover */
@@ -66,8 +73,8 @@ background:#C05252;
 
 /* section size & position */
 .mmry-game{
-width: 640px;
-height: 640px;
+width: 850px;
+height: 700px;
 margin: auto;
 display: flex;
 flex-wrap: wrap;
@@ -119,4 +126,17 @@ backface-visibility: hidden;
 .primary-card{
 transform: rotateY(180deg);
 transition: transform 0.2s;
+}
+
+
+p.text-center.text-light {
+    padding-top: 2rem;
+}
+
+/* sharpen pictures on smaller screen sizes TESTING */
+.sharpen {
+    image-rendering: -moz-crisp-edges;
+    image-rendering: -o-crisp-edges;
+    image-rendering: -webkit-optimize-contrast;
+    -ms-interpolation-mode: nearest-neighbor;
 }
