@@ -4,11 +4,23 @@
     box-sizing: border-box;
 }
 
-
+/* Positions the Nav Pills */
 .nav-position {
     margin: 4px;
 }
+/* Sets nav pills fill color */
+.nav-pills .nav-link.active {
+    background-color: rgb(53, 7, 1);
+    }
 
+/* Sets button text color */
+button.btn.btn-lg.btn-block {
+    color: rgb(53, 7, 1);
+}
+
+a.nav-link{
+   color: white !important; 
+}
 /* section position */
 body {
     height: 100vh;
