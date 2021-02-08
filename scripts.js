@@ -1,5 +1,3 @@
-Scripts
-
 // selecting the cards in the DOM from the .memory-card class
 const cards = document.querySelectorAll(".memory-card");
 
