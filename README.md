@@ -36,6 +36,9 @@ There will be roughly about 5 different functions needed to create a finished pr
 
 
 # 2. Updates Timeline.
+### *0.8*
+> 
+
  ### *0.7*
 > Updated layour and color palette. <br>
 > Added a landingpage. <br>
