@@ -120,7 +120,7 @@ There will be roughly about 5 different functions needed to create a finished pr
 1. ~~Add a landingpage to match wirefram.~~
 2. ~~Add a functional restart button to game page.~~
 3. ~~Fix error where players can break out of the fuction that clicks the cards.(read more in 4.)~~
-4. Add notification upon completing the game.
+4. Add notification upon completing the game. (if time allows)
 5. ~~Update anchor link tags on the restart button on gamepage.html~~
 
 
@@ -173,6 +173,15 @@ I am working on pasting my saved code back into GitPod.
 >> Roughly at 22:00 GitPod became unresponsive. Preview port became disconnected and Terminal would not connect to my workspace.<br>
 So I decided to back-up my work in TXT files (can be found in /txt-backups) to save me from losing all my changes made.<br>
 This is simply testing every that it works as it should and did before the hard restart of Gitpod. This is not Final testing.
->>> index.html looks like before hard restart:
->>>> Yes but Navigation has reverted back to showing overflow of the elements making the screen fluttery when hover. Most likely an error in styles.css.
-**Fixed by re-applying box-sizing to <.body>**<br>
+>>> *index.html looks like before hard restart:*
+>>>> Yes but Navigation has reverted back to showing overflow of the elements making the screen fluttery when hover. Most likely an error in styles.css.<br>
+**Fixed by re-applying box-sizing to body**<br>
+
+>>> *gamepage.html looks like before hard restart:*
+>>>> **Yes and with fixing index.html box-sizing in styles.css it was fixed on gamepage.html aswell.**
+
+>>> *styles.css looks like before hard restart:*
+>>>> ** Yes and with fixing the box-sizing for index.html and gamepage.html all 3 works accordingly.
+
+>>> *scripts.js works like before hard restart:*
+>>>> **Yes, scripts for the game works as intended**
