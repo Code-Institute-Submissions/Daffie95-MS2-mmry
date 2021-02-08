@@ -42,9 +42,12 @@ There will be roughly about 5 different functions needed to create a finished pr
 > Reworked Buttons to make the entier button a clickable link
 > Changed coloring on buttons.
 > Added a JS Refresh to the restart button.
+> READ 6. Additional Comments for 2021-02-08
+
+> Fixed layout for Updates Timeline.
 
 
- ### *0.7*
+ *0.7*
 > Updated layour and color palette. <br>
 > Added a landingpage. <br>
 > Added styling to Landing page. <br>
@@ -55,7 +58,8 @@ There will be roughly about 5 different functions needed to create a finished pr
 > Fixed Image rendering on smaller devices <br>
 > Updated and Organized 2. Updates Timeline.
 <br>
-> ### *0.6*
+
+> ### *0.6*<br>
 > Moved previous README.md to _Old/ and added it to .gitignore <br>
 > Created a new README.md to match current project.  <br>
 > Updated the new README.md with Table of Contents. <br>
@@ -63,16 +67,19 @@ There will be roughly about 5 different functions needed to create a finished pr
 > Uploaded a wireframe to the Wireframe/. <br>
 > Added Updates from _old-README.md to README.md. <br>
 <br>
+
 > ### *0.5*
 > updated colors<br>
 > included a shuffling function using flex-items internal hierarchy<br>
 > tried re-refactoring to see if primaryCard bug persists<br>
 > updated code to stop matched cards from being clicked again<br>
 <br>
+
 > ### *0.4*
 > retried refactoring of JS functions and now works.<br>
 > Reverted back to before refactured due to bugs or breaking the code<br>
 <br>
+
 > ### *0.3*
 > ending work<br>
 > refactured functions in *scripts.js*<br>
@@ -81,17 +88,20 @@ There will be roughly about 5 different functions needed to create a finished pr
 > added resources used<br>
 > moved projects to VSCode<br>
 <br>
+
 > ### *0.2* (23-12-2020)
 > set a timeout for when cards are not matching, so we are still able to see what card we click (fixed)<br>
 > Testing matching the cards using the data-* HTML attribute<br>
 > Updated element classes to easely be difined in *index.html* & *styles.css*<br>
 <br>
+
 > ### *0.2* (22-12-2020)
 > updated depth and 3d effects in *styles.css* for selector and .memory-cards<br>
 > tested the targeting selector for the function to flip the cards<br>
 > added querySelectorAll to target .memory-cards in *index.html*<br>
 > starting script formating in *scripts.js*<br>
 <br>
+
 >  ### *0.1* (22-12-2020)
 > updated *styles.css* with comments<br>
 > added active transition<br>
