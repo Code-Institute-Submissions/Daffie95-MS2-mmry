@@ -155,19 +155,19 @@ Clicking 3 or more cards will continue to unflip cards and break the loop.
 
 # 5. Conclusions.
 # 6. Additional Comments.
-> *2021-02-08 / 22:05*
-GitPod is having issues with connectivity, preview is buggy and commits are not going trough. I will add "commits" below here for clarity.
-> Changed the buttons to not change color on hover
-> Added a zoom when hoving on buttons.
-> added padding to button anchor text to span the entire button, making the entire button clickable.
-> Updated *0.8*
-> Added 7. Testing section to README.md.
-> Revisited lockBoard variable in scripts.js and resolved an error allowing users to break out of the functions that locks unclicked cards when during the matching function.
-> Added above mentioned error in the 4. Bugs & Error because I forgot.
-> Cleaned up scripts.js (formatting).
-> Because I am currently unable to push to GitHub I have also saved all code in notepads to not lose everything (not kidding) (2021-02-08 23:14)
-> Gitpod is now working again after a hard reset and restart. There will be gaps in the commits between ~22:05 when I realised and 23:14.
-I am working on pasting my saved code back into GitPod.
+> *2021-02-08 / 22:05*<br>
+**GitPod is having issues with connectivity, preview is buggy and commits are not going trough. I will add "commits" below here for clarity.**<br>
+> Changed the buttons to not change color on hover<br>
+> Added a zoom when hoving on buttons.<br>
+> added padding to button anchor text to span the entire button, making the entire button clickable.<br>
+> Updated **0.8**<br>
+> Added 7. Testing section to README.md.<br>
+> Revisited lockBoard variable in scripts.js and resolved an error allowing users to break out of the functions that locks unclicked cards when during the matching function.<br>
+> Added above mentioned error in the 4. Bugs & Error because I forgot.<br>
+> Cleaned up scripts.js (formatting).<br>
+> Because I am currently unable to push to GitHub I have also saved all code in notepads to not lose everything (not kidding) (2021-02-08 23:14)<br>
+> Gitpod is now working again after a hard reset and restart. There will be gaps in the commits between ~22:05 when I realised and 23:14.<br>
+> Working on pasting my saved code back into GitPod.<br>
 # 7. Testing.
 > # GitPod Issue. 2021-02-08 ~23:30
 >> Roughly at 22:00 GitPod became unresponsive. Preview port became disconnected and Terminal would not connect to my workspace.<br>
