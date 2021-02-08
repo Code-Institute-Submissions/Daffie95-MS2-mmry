@@ -1,3 +1,5 @@
+README
+
 # MMrY - The Christmas Memory Game.
 
 ### Welcome to MMrY. 
@@ -15,7 +17,7 @@ As a small disclaimer this is a continuation of a previously failed project and 
 #### 4. Bugs & Errors.
 #### 5. Conclusion.
 #### 6. Additional Comments.
-#### 7. TBA
+#### 7. Testing.
 
 # 1. Project Planning.
 The idea for this project came to me when I had a discussion with a friend about dementia, and how small and continous activation of the brain does tremendous work to battle dementia.
@@ -37,7 +39,10 @@ There will be roughly about 5 different functions needed to create a finished pr
 
 # 2. Updates Timeline.
 ### *0.8*
-> 
+> Reworked Buttons to make the entier button a clickable link
+> Changed coloring on buttons.
+> Added a JS Refresh to the restart button.
+
 
  ### *0.7*
 > Updated layour and color palette. <br>
@@ -102,9 +107,9 @@ There will be roughly about 5 different functions needed to create a finished pr
 # 3. Planned Updates. (In order of prioritization)
 1. ~~Add a landingpage to match wirefram.~~
 2. ~~Add a functional restart button to game page.~~
-3. Fix error where players can break out of the fuction that clicks the cards.(read more in 4.)
+3. ~~Fix error where players can break out of the fuction that clicks the cards.(read more in 4.)~~
 4. Add notification upon completing the game.
-5. Update anchor link tags on the restart button on gamepage.html
+5. ~~Update anchor link tags on the restart button on gamepage.html~~
 
 
 # 4. Bugs & Errors.
@@ -122,10 +127,33 @@ Clicking the card 3 times locks the card you clicked the first time.
 The card you click regardless of which of the 12 cards you click will call the EventListener.
 >> **Actual Result:**
 The first clicked card always fires as if the EventListener is stuck firing on the card the user clicked first.
->>> Conclusion: -
+>>> Conclusion: - This error has been resolved. Similarly to *1.* this was fixed used VSCode and I had issues connecting it to Git.
 
->>> Fixed: No (2021-02-04)
+>>> Fixed: Yes (2021-02-08)
+
+> 3.
+>> **Expected Result:**
+Clicking 2 cards will not allow user to click more cards to break the function of the game.
+>> **Actual Result:**
+Clicking 3 or more cards will continue to unflip cards and break the loop. 
+>>> Conclusion: While cleaning up the code the error fixed itself, leaning me towards the conclusion that it was an indentation error along the road.
+
+>>> Fixed: yes (2021-02-08)
+
 
 # 5. Conclusions.
 # 6. Additional Comments.
-# 7. TBA
+> *2021-02-08 / 22:05*
+GitPod is having issues with connectivity, preview is buggy and commits are not going trough. I will add "commits" below here for clarity.
+> Changed the buttons to not change color on hover
+> Added a zoom when hoving on buttons.
+> added padding to button anchor text to span the entire button, making the entire button clickable.
+> Updated *0.8*
+> Added 7. Testing section to README.md.
+> Revisited lockBoard variable in scripts.js and resolved an error allowing users to break out of the functions that locks unclicked cards when during the matching function.
+> Added above mentioned error in the 4. Bugs & Error because I forgot.
+> Cleaned up scripts.js (formatting).
+> Because I am currently unable to push to GitHub I have also saved all code in notepads to not lose everything (not kidding) (2021-02-08 23:14)
+> Gitpod is now working again after a hard reset and restart. There will be gaps in the commits between ~22:05 when I realised and 23:14.
+I am working on pasting my saved code back into GitPod.
+# 7. Testing.
