@@ -169,3 +169,8 @@ GitPod is having issues with connectivity, preview is buggy and commits are not 
 > Gitpod is now working again after a hard reset and restart. There will be gaps in the commits between ~22:05 when I realised and 23:14.
 I am working on pasting my saved code back into GitPod.
 # 7. Testing.
+> # GitPod Issue. 2021-02-08 ~23:30
+>> Roughly at 22:00 GitPod became unresponsive. Preview port became disconnected and Terminal would not connect to my workspace.<br>
+So I decided to back-up my work in TXT files (can be found in /txt-backups) to save me from losing all my changes made.<br>
+This is simply testing every that it works as it should and did before the hard restart of Gitpod. This is not Final testing.
+>>> 
