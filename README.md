@@ -173,4 +173,6 @@ I am working on pasting my saved code back into GitPod.
 >> Roughly at 22:00 GitPod became unresponsive. Preview port became disconnected and Terminal would not connect to my workspace.<br>
 So I decided to back-up my work in TXT files (can be found in /txt-backups) to save me from losing all my changes made.<br>
 This is simply testing every that it works as it should and did before the hard restart of Gitpod. This is not Final testing.
->>> 
+>>> index.html looks like before hard restart:
+>>>> Yes but Navigation has reverted back to showing overflow of the elements making the screen fluttery when hover. Most likely an error in styles.css.
+**Fixed by re-applying box-sizing to <.body>**<br>

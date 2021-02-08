@@ -1,11 +1,11 @@
 CSS
 
 /* * Selector not needed */
-/* *{
+*{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-} */
+}
 
 /* Positions the Nav Pills */
 .nav{
