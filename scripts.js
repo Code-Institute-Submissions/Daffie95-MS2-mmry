@@ -25,7 +25,6 @@ function flipCard() {
     console.log('This Is the Second Click');
     console.log('This is Where I want a removeEventListener')
     matchCheck();
-
     return;
 }
 
