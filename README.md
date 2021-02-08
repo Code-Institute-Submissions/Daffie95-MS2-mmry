@@ -45,7 +45,8 @@ There will be roughly about 5 different functions needed to create a finished pr
 > READ 6. Additional Comments for 2021-02-08
 
 > Fixed layout for Updates Timeline.
-> Added current README.md in from before GitPod went down.
+> Added current README.md in from before GitPod went down. (Read Additonal Comments)
+> Added current scripts.js in from before GitPod went down. (Read Additonal Comments)
 
  *0.7*
 > Updated layour and color palette. <br>

@@ -1,3 +1,5 @@
+Scripts
+
 // selecting the cards in the DOM from the .memory-card class
 const cards = document.querySelectorAll(".memory-card");
 
@@ -9,21 +11,25 @@ let primaryCard, secondaryCard;
 // function to flip cards
 function flipCard() {
     if (lockBoard) return;
-    if (this === primaryCard) return;
-
+    
+    // if (this === primaryCard) return;
     this.classList.add("flip");
 
     if (!flippedCard) {
         // first click (flip)
         flippedCard = true;
         primaryCard = this;
+
         console.log('This Is the First Click');
+
         return;
     }
     //  second click (flip)
+    flippedCard = false;
     secondaryCard = this;
+
     console.log('This Is the Second Click');
-    console.log('This is Where I want a removeEventListener')
+
     matchCheck();
     return;
 }
@@ -36,24 +42,31 @@ function matchCheck() {
 function disableMatchedCards() {
     primaryCard.removeEventListener("click", flipCard);
     secondaryCard.removeEventListener("click", flipCard);
-
     resetCards();
 }
 
 function flipUnmatchedCards() {
+    lockBoard = true;
+
+    console.log('The Board is locked and no more cards can be clicked')
 
     setTimeout(() => {
         primaryCard.classList.remove("flip");
         secondaryCard.classList.remove("flip");
 
-        resetCards();
+        lockBoard = false;
+        // resetCards();
+        console.log('The board is now unlocked.')
     }, 1300);
+
+
 }
 
 function resetCards() {
     [flippedCard, lockBoard] = [false, false];
     [primaryCard, secondaryCard] = [null, null];
 }
+
 // shuffle the cards using internal flex-item positioning
 (function shuffle() {
     cards.forEach((card) => {
@@ -62,4 +75,11 @@ function resetCards() {
     });
 })();
 
+function finishedGame () {
+
+}
+
 cards.forEach((card) => card.addEventListener("click", flipCard));
+
+
+
