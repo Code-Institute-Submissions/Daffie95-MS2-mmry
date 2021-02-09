@@ -196,8 +196,12 @@ This is simply testing every that it works as it should and did before the hard 
 >>>> **Yes, scripts for the game works as intended**
 
 # 2. Final Testing.
-> Grammar check text content:
+> Grammar check for text content: 
+![Grammer Check Using Grammarly](https://i.gyazo.com/86d87b280f556675177a452ec155a460.png "Grammar Score")
+
 > User Experience Testing:
+>> Are all links functional, and/or opens in a new tab when opening a new webpage?<br>
+**YES**
 > Statistics Testing:
 > HTML Validator:
 > CSS Validator:
