@@ -40,6 +40,7 @@ There will be roughly about 5 different functions needed to create a finished pr
 > Removed placeholder text in index.html and updated with current information.<br>
 > Added clickable lists of resources to landingpage.<br>
 > Uploading .TXT files that I saved code in before GitPod stopped working to /txt-saves. (Read Additional Comments)
+> Updated Meta desc, Meta tags, Meta Author across page.
 
 > ### *0.8*
 > Reworked Buttons to make the entier button a clickable link<br>
@@ -229,6 +230,8 @@ This is simply testing every that it works as it should and did before the hard 
 > ### CSS Validator:
 >> [CSS Validation for index.html](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fdaffie95.github.io%2FMS2-mmry%2Findex.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=sv)<br>
 >> [CSS Validation for gamepage.html](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fdaffie95.github.io%2FMS2-mmry%2Fgamepage.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=sv)<br>
-> ### JSLint:
 
+> ### JaveScript Validator:
+>> unable to find an easy to use JS tester to test the functionality of the scripts.js
 > ### Google Lighthouse/"Think With Google":
+>> [Google Lighthouse Report for index.html]()

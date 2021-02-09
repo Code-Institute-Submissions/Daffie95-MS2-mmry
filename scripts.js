@@ -4,7 +4,8 @@ const cards = document.querySelectorAll(".memory-card");
 //  variables declaring that no cards have been clicked
 let flippedCard = false;
 let lockBoard = false;
-let primaryCard, secondaryCard;
+let primaryCard;
+let secondaryCard;
 
 // function to flip cards
 function flipCard() {
@@ -17,8 +18,8 @@ function flipCard() {
         // first click (flip)
         flippedCard = true;
         primaryCard = this;
-        console.log('eventListener is active')
-        console.log('This Is the First Click');
+        console.log("eventListener is active");
+        console.log("This Is the First Click");
 
         return;
     }
@@ -26,14 +27,15 @@ function flipCard() {
     flippedCard = false;
     secondaryCard = this;
 
-    console.log('This Is the Second Click');
+    console.log("This Is the Second Click");
 
     matchCheck();
     return;
 }
 
 function matchCheck() {
-    let itsMatch = primaryCard.dataset.cardframe === secondaryCard.dataset.cardframe;
+    let itsMatch = primaryCard.dataset.cardframe ===
+    secondaryCard.dataset.cardframe;
     itsMatch ? disableMatchedCards() : flipUnmatchedCards();
 }
 
@@ -46,7 +48,7 @@ function disableMatchedCards() {
 function flipUnmatchedCards() {
     lockBoard = true;
 
-    console.log('The Board is locked and no more cards can be clicked')
+    console.log("The Board is locked and no more cards can be clicked")
 
     setTimeout(() => {
         primaryCard.classList.remove("flip");
@@ -54,7 +56,7 @@ function flipUnmatchedCards() {
 
         lockBoard = false;
         // resetCards();
-        console.log('The board is now unlocked.')
+        console.log("The board is now unlocked.")
     }, 1300);
 
 
