@@ -36,20 +36,20 @@ There will be roughly about 5 different functions needed to create a finished pr
 
 
 # 2. Updates Timeline.
-### *0.8*
-> Reworked Buttons to make the entier button a clickable link
-> Changed coloring on buttons.
-> Added a JS Refresh to the restart button.
-> READ 6. Additional Comments for 2021-02-08
+> ### *0.8*
+> Reworked Buttons to make the entier button a clickable link<br>
+> Changed coloring on buttons.<br>
+> Added a JS Refresh to the restart button.<br>
+> READ 6. Additional Comments for 2021-02-08<br>
 
-> Fixed layout for Updates Timeline.
-> Added current README.md in from before GitPod went down. (Read Additonal Comments)
-> Added current scripts.js in from before GitPod went down. (Read Additonal Comments)
-> Added current index.html in from before GitPod went down. (Read Additonal Comments)
-> Added current gamepage.html in from before GitPod went down. (Read Additional Comments)
-> added current styles.css in from before GitPod went down. (Read Additional Comments)
+> Fixed layout for Updates Timeline.<br>
+> Added current README.md in from before GitPod went down. (Read Additonal Comments)<br>
+> Added current scripts.js in from before GitPod went down. (Read Additonal Comments)<br>
+> Added current index.html in from before GitPod went down. (Read Additonal Comments)<br>
+> Added current gamepage.html in from before GitPod went down. (Read Additional Comments)<br>
+> added current styles.css in from before GitPod went down. (Read Additional Comments)<br>
 
- *0.7*
+> ### *0.7*
 > Updated layour and color palette. <br>
 > Added a landingpage. <br>
 > Added styling to Landing page. <br>
@@ -61,7 +61,7 @@ There will be roughly about 5 different functions needed to create a finished pr
 > Updated and Organized 2. Updates Timeline.
 <br>
 
-> ### *0.6*<br>
+> ### *0.6*
 > Moved previous README.md to _Old/ and added it to .gitignore <br>
 > Created a new README.md to match current project.  <br>
 > Updated the new README.md with Table of Contents. <br>
