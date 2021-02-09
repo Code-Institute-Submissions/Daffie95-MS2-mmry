@@ -181,6 +181,20 @@ Clicking 3 or more cards will continue to unflip cards and break the loop.
 > Gitpod is now working again after a hard reset and restart. There will be gaps in the commits between ~22:05 when I realised and 23:14.<br>
 > Working on pasting my saved code back into GitPod.<br>
 
+> ## 2.
+> *2021-02-09 / 12:09* <br>
+> There are unresponsiveness issues only visible on phone devices. The error is that the primaryCard thats clicked (i.e the first card)
+becomes unclickable once the cards turns face down again. secondaryCard works as intended.
+However, I dont have any experience in troubleshooting on mobile devices as the DevTools is not giving me any errors. The final console.log()
+is fired indicating that the board is unlocked, but it seems like the lockedBoard function is still applied to primaryCard once the classList.Toggle"flip" is untoggled by the timer in flipUnmatchedCards.
+this renders the user unable to click the primaryCard two tries in a row. 
+<br>
+<br>
+I am very unsure how to deal with issues like this. As I dont think its something the course has gone trough. 
+While testing from GitHub pages, I get one results. While testing from my private phone I get another result (which is not better by the way).
+How am I supposed to troubleshoot different errors doing different things on different devices? There isnt really any time for me to fix this as the deadline is coming up in 39 minutes. 
+I will be removing the paragraph on index.html advicing users to use their phone on the page. 
+
 
 # 6. Testing.
 > ## 1.

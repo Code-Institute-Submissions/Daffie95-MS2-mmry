@@ -11,6 +11,7 @@ function flipCard() {
     if (lockBoard) return;
 
     if (this === primaryCard) return;
+    
     this.classList.add("flip");
 
     if (!flippedCard) {
@@ -18,7 +19,6 @@ function flipCard() {
         primaryCard = this;
         console.log("eventListener is active");
         console.log("This Is the First Click");
-
         return;
     }
 
