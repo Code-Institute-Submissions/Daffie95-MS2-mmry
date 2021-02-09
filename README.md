@@ -219,8 +219,11 @@ This is simply testing every that it works as it should and did before the hard 
 >> Is the core memory game functional on smaller screen devices. <br>
 **The game is fully functional, however the scaling of the container and its child elements makes the layout squished** <br>
 
-> Statistics Testing:
-> HTML Validator:
+> ### Performance Testing:
+>> ![Performance Test Using DevTools Performance](https://i.gyazo.com/d23edfe19068b9d7805cc8b701b39f9a.png "Tested by clicking links and flipping cards")<br>
+>> [Performance Test For index.html using webpagetest.org](https://www.webpagetest.org/result/210209_DiGF_308357213ec2543adda7a58826bf349f/)<br>
+>> [Performance Test For gamepage.html using webpagetest.org](https://www.webpagetest.org/result/210209_DiBN_be4041f0b5518e7ed1f56d516a8a01af/)<br>
+> ### HTML Validator:
 > CSS Validator:
 > JSLint:
 > Google Lighthouse/"Think With Google":
