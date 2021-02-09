@@ -40,7 +40,9 @@ There will be roughly about 5 different functions needed to create a finished pr
 > Removed comments from gamepage.html <br>
 > Removed comments from index.html <br>
 > Removed comments from scripts.js <br>
-> Removed comments from styles.css
+> Removed comments from styles.css <br>
+> Moved styles.css and scripts.js into /assets
+> Corrected links to /assets for scripts.js and styles.css
 
 
 > ### *0.9*
