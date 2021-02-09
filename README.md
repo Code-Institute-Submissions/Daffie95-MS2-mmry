@@ -227,5 +227,8 @@ This is simply testing every that it works as it should and did before the hard 
 >> [HTML Validator for index.html](https://validator.w3.org/nu/?doc=https%3A%2F%2Fdaffie95.github.io%2FMS2-mmry%2Findex.html)<br>
 >> [HTML Validator for gamepage.html](https://validator.w3.org/nu/?doc=https%3A%2F%2Fdaffie95.github.io%2FMS2-mmry%2Fgamepage.html)<br>
 > ### CSS Validator:
-> JSLint:
-> Google Lighthouse/"Think With Google":
+>> [CSS Validation for index.html](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fdaffie95.github.io%2FMS2-mmry%2Findex.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=sv)<br>
+>> [CSS Validation for gamepage.html](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fdaffie95.github.io%2FMS2-mmry%2Fgamepage.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=sv)<br>
+> ### JSLint:
+
+> ### Google Lighthouse/"Think With Google":
