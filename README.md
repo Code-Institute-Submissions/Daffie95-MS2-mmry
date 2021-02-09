@@ -230,9 +230,16 @@ This is simply testing every that it works as it should and did before the hard 
 >> [CSS Validation for gamepage.html](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fdaffie95.github.io%2FMS2-mmry%2Fgamepage.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=sv)<br>
 
 > ### JaveScript Validator:
->> unable to find an easy to use JS tester to test the functionality of the scripts.js
+>> unable to find an easy to use JS tester to test the functionality of the scripts.js in conjuntion of the html pages.
 > ### Google Lighthouse Diagnosis:
->> [Google Lighthouse Report for index.html](https://i.gyazo.com/bec1f4918d530fcea22eb70017f485e7.png)
+>> [Google Lighthouse Report for index.html](https://i.gyazo.com/bec1f4918d530fcea22eb70017f485e7.png)<br>
 >> [Google Lighthouse Report for gamepage.html](https://i.gyazo.com/55c715d2553c42c30a7301689076cb65.png)
 
 # 7. Conclusions.
+
+I know that these times are really strange with a huge pandemic going on forcing isolation on people. Its been very hard for me to balance studying and the new real life things I have to deal with currently.
+However, I feel very satisfied with solving the issues that came from submitting a poorly designed and executed Milestone Project. There were small errors breaking the flow of the Memory Game, later deducted to stem from indentation issues, that's now solved and the game works as intended.
+I am happy I took a "very bad" project and tourned it around (*atleast in my eyes*) to hopefully recieve a passing grade.
+<br>
+<br>
+I would like to give thanks to the Student Counceling from Code Institute that help me plan out my continuation of this project. Aswell as UXPin for giving me a student pass for using their premium software and services.
