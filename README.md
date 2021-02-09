@@ -224,6 +224,8 @@ This is simply testing every that it works as it should and did before the hard 
 >> [Performance Test For index.html using webpagetest.org](https://www.webpagetest.org/result/210209_DiGF_308357213ec2543adda7a58826bf349f/)<br>
 >> [Performance Test For gamepage.html using webpagetest.org](https://www.webpagetest.org/result/210209_DiBN_be4041f0b5518e7ed1f56d516a8a01af/)<br>
 > ### HTML Validator:
-> CSS Validator:
+>> [HTML Validator for index.html](https://validator.w3.org/nu/?doc=https%3A%2F%2Fdaffie95.github.io%2FMS2-mmry%2Findex.html)<br>
+>> [HTML Validator for gamepage.html](https://validator.w3.org/nu/?doc=https%3A%2F%2Fdaffie95.github.io%2FMS2-mmry%2Fgamepage.html)<br>
+> ### CSS Validator:
 > JSLint:
 > Google Lighthouse/"Think With Google":
