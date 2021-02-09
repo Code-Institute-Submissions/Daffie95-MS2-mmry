@@ -196,17 +196,29 @@ This is simply testing every that it works as it should and did before the hard 
 >>>> **Yes, scripts for the game works as intended**
 
 # 2. Final Testing.
-> Grammar and readability check for text content: 
-![Grammer Check Using Grammarly](https://i.gyazo.com/86d87b280f556675177a452ec155a460.png "Grammar Score")
-![Readability Check using WebFx](https://i.gyazo.com/69eb865e8ba24fc5a9eb45b3c4e09dc6.png "Readability Score")
 
-> User Experience Testing:
->> Are all links functional, and/or opens in a new tab when opening a new webpage?<br>
+> ### Grammar and readability check for text content: 
+> ![Grammer Check Using Grammarly](https://i.gyazo.com/86d87b280f556675177a452ec155a460.png "Grammar Score")
+> ![Readability Check using WebFx](https://i.gyazo.com/69eb865e8ba24fc5a9eb45b3c4e09dc6.png "Readability Score")
+
+> ### User Experience Testing:
+>> Are all anchor links functional, and/or opens in a new tab when opening a new webpage?<br>
 **YES** <br>
 >> Are all 12 cards on gamepage clickable?<br>
 **YES** <br>
 >> Can users only flip 2 cards at a time?<br>
-**
+**YES** <br>
+>> Does flipping 2 match the cards and removes the function to click them again? <br>
+**YES** <br>
+>> Does the flipping function work troughout untill all cards are matched and flipped face up?<br>
+**YES** <br>
+>> Does the restart button refresh the page?<br>
+**YES** <br>
+>> Does the restart buttong run the javascript function to shuffle the cards? <br>
+**YES** <br>
+>> Is the core memory game functional on smaller screen devices. <br>
+**The game is fully functional, however the scaling of the container and its child elements makes the layout squished** <br>
+
 > Statistics Testing:
 > HTML Validator:
 > CSS Validator:
