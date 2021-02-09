@@ -43,7 +43,7 @@ There will be roughly about 5 different functions needed to create a finished pr
 > Removed comments from styles.css <br>
 > Moved styles.css and scripts.js into /assets
 > Corrected links to /assets for scripts.js and styles.css
-
+> file links now work as intended.
 
 > ### *0.9*
 > Removed placeholder text in index.html and updated with current information.<br>
