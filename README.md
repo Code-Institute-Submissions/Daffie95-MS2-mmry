@@ -120,7 +120,7 @@ There will be roughly about 5 different functions needed to create a finished pr
 1. ~~Add a landingpage to match wirefram.~~
 2. ~~Add a functional restart button to game page.~~
 3. ~~Fix error where players can break out of the fuction that clicks the cards.(read more in 4.)~~
-4. Add notification upon completing the game. (if time allows)
+4. ~~Add notification upon completing the game. (if time allows)~~ It did not.
 5. ~~Update anchor link tags on the restart button on gamepage.html~~
 
 
