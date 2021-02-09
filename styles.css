@@ -1,6 +1,6 @@
 CSS
 
-/* * Selector not needed */
+
 *{
     margin: 0;
     padding: 0;
@@ -80,10 +80,12 @@ display: flex;
 background:#C05252;
 }
 
+/* sets link color to white */
 .p-anchor {
     color: white !important;
 }
 
+/* sets size and color for brain icon in footer */
 i.fas.fa-brain {
     font-size: 40px;
     color: rgb(53, 7, 1);
@@ -109,8 +111,6 @@ margin: 5px;
 transform: scale(1);
 transform-style: preserve-3d; /* assures that child element is on 3D plane */
 transition: 0.4s;
-
-
 }
 
 /* card hover effect */
@@ -142,6 +142,7 @@ background: rgb(70, 1, 1);
 backface-visibility: hidden;
 }
 
+/* rotation function tied to clicking and facing card up */
 .primary-card{
 transform: rotateY(180deg);
 transition: transform 0.2s;

@@ -1,7 +1,7 @@
 // selecting the cards in the DOM from the .memory-card class
 const cards = document.querySelectorAll(".memory-card");
 
-//  declaring that no cards have been clicked
+//  variables declaring that no cards have been clicked
 let flippedCard = false;
 let lockBoard = false;
 let primaryCard, secondaryCard;
@@ -9,15 +9,15 @@ let primaryCard, secondaryCard;
 // function to flip cards
 function flipCard() {
     if (lockBoard) return;
-    
-    // if (this === primaryCard) return;
+
+    if (this === primaryCard) return;
     this.classList.add("flip");
 
     if (!flippedCard) {
         // first click (flip)
         flippedCard = true;
         primaryCard = this;
-
+        console.log('eventListener is active')
         console.log('This Is the First Click');
 
         return;
@@ -73,11 +73,9 @@ function resetCards() {
     });
 })();
 
-function finishedGame () {
-
-}
 
 cards.forEach((card) => card.addEventListener("click", flipCard));
+
 
 
 
