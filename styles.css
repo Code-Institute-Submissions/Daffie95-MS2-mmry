@@ -84,6 +84,11 @@ background:#C05252;
     color: white !important;
 }
 
+i.fas.fa-brain {
+    font-size: 40px;
+    color: rgb(53, 7, 1);
+}
+
 /* section size & position */
 .mmry-game{
 width: 850px;
@@ -104,6 +109,7 @@ margin: 5px;
 transform: scale(1);
 transform-style: preserve-3d; /* assures that child element is on 3D plane */
 transition: 0.4s;
+
 
 }
 
@@ -146,7 +152,7 @@ p.text-center.text-light {
     padding-top: 2rem;
 }
 
-/* sharpen pictures on smaller screen sizes TESTING */
+/* sharpen pictures on smaller screen sizes */
 .memory-card {
     image-rendering: -moz-crisp-edges;
     image-rendering: -o-crisp-edges;

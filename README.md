@@ -36,6 +36,10 @@ There will be roughly about 5 different functions needed to create a finished pr
 
 
 # 2. Updates Timeline.
+> ### *0.9*
+> Removed placeholder text in index.html and updated with current information.<br>
+> Added clickable lists of resources to landingpage.<br>
+
 > ### *0.8*
 > Reworked Buttons to make the entier button a clickable link<br>
 > Changed coloring on buttons.<br>
