@@ -1,0 +1,154 @@
+styles.css backup
+
+/* * Selector not needed */
+/* *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} */
+
+/* Positions the Nav Pills */
+.nav{
+margin: 1rem;
+overflow: hidden;
+}
+
+/* Sets nav pills fill color */
+.nav-pills .nav-link.active {
+background-color: rgb(53, 7, 1);
+}
+
+
+
+
+/* sets link text to white */
+a.nav-link{
+color: white !important; 
+}
+
+/* hover effect for navs */
+a.nav-link:hover {
+transform: scale(1.20);
+transition: transform 0.3s;
+}
+
+/* Positions H3 */
+H3 {
+padding: 2rem;
+}
+
+/* Positions Play button */
+button {
+margin-bottom: 1.5rem;
+}
+
+/* makes the entire button a clickable link */
+.button-anchor {
+    display:block;
+    width:100%;
+    height:100%;
+}
+/* Sets initial button text color */
+button.btn.btn-lg.btn-block {
+color: rgb(53, 7, 1);
+}
+
+/* sets initial button background color */
+.btn.btn-lg.btn-block{
+overflow: hidden;
+background-color:rgb(73, 30, 30);
+}
+
+/* sets initial button anchor text color */
+.button-anchor{
+color: white;
+}
+
+/* Adds zoom effect on hover */
+a.button-anchor:hover{
+    transform: scale(1.20);
+transition: transform 0.3s;
+}
+
+/* sets button anchor text color on hover */ 
+a.button-anchor:hover{
+    color: white !important;
+
+}
+
+/* section position */
+body {
+height: 100vh;
+display: flex;
+background:#C05252;
+}
+
+/* section size & position */
+.mmry-game{
+width: 850px;
+height: 700px;
+margin: auto;
+display: flex;
+flex-wrap: wrap;
+border: 2px solid rgb(53, 7, 1);
+perspective: 1000px; /* give the container a depth of 1kPX */
+}
+
+/* individual card size & position */
+.memory-card{
+width:calc(25% - 10px);
+height:calc(33.33% -  10px);
+position: relative;
+margin: 5px;
+transform: scale(1);
+transform-style: preserve-3d; /* assures that child element is on 3D plane */
+transition: 0.4s;
+
+}
+
+/* card hover effect */
+.memory-card:hover{
+transform: scale(.95);
+transition: transform 0.2s;
+}
+/* card click effect */
+.memory-card:active{
+transform: scale(.97);
+transition: transform 0.2s;
+}
+
+/* Rotates the card 180* on click */
+.memory-card.flip{
+transform: rotateY(180deg);
+transition: transform 0.2s;
+}
+
+/* individual card styling */
+.primary-card,
+.secondary-card{
+position: absolute;
+width: 100%;
+height: 100%;
+padding: 10px;
+border-radius: 5px;
+background: rgb(70, 1, 1);
+backface-visibility: hidden;
+}
+
+.primary-card{
+transform: rotateY(180deg);
+transition: transform 0.2s;
+}
+
+
+p.text-center.text-light {
+    padding-top: 2rem;
+}
+
+/* sharpen pictures on smaller screen sizes TESTING */
+.memory-card {
+    image-rendering: -moz-crisp-edges;
+    image-rendering: -o-crisp-edges;
+    image-rendering: -webkit-optimize-contrast;
+    -ms-interpolation-mode: nearest-neighbor;
+}

@@ -39,6 +39,7 @@ There will be roughly about 5 different functions needed to create a finished pr
 > ### *0.9*
 > Removed placeholder text in index.html and updated with current information.<br>
 > Added clickable lists of resources to landingpage.<br>
+> Uploading .TXT files that I saved code in before GitPod stopped working to /txt-saves. (Read Additional Comments)
 
 > ### *0.8*
 > Reworked Buttons to make the entier button a clickable link<br>
@@ -173,6 +174,8 @@ Clicking 3 or more cards will continue to unflip cards and break the loop.
 > Because I am currently unable to push to GitHub I have also saved all code in notepads to not lose everything (not kidding) (2021-02-08 23:14)<br>
 > Gitpod is now working again after a hard reset and restart. There will be gaps in the commits between ~22:05 when I realised and 23:14.<br>
 > Working on pasting my saved code back into GitPod.<br>
+
+
 # 7. Testing.
 > ## 1.
 > **GitPod Issue. 2021-02-08 ~23:30**

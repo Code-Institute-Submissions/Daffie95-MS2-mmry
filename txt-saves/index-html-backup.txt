@@ -1,0 +1,76 @@
+index.html backup
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> MMrY | A Christmas Memory Game</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-12">
+                <ul class="nav nav-pills nav-fill">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="gamepage.html">Play The Game!</a>
+                    </li>
+
+                </ul>
+                <h3 class="text-center text-light">
+                    MMrY | The Christmas Memory Game.
+                </h3>
+                <button type="button" class="btn btn-lg btn-block">
+                    <a class="button-anchor" href="gamepage.html">Play!</a>
+                </button>
+                
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-8">
+                <!-- Container for text about health benefits -->
+                <h2 class="text-center text-white">
+                    MMrY | Helping Your Head
+                </h2>
+                <p class="text-white">
+                    Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor
+                    mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna
+                    mollis euismod. Donec sed odio dui.
+                </p>
+
+            </div>
+            <div class="col-md-4">
+                <!-- container for contacts and social media link -->
+                <h2 class="text-center text-white">
+                    Contacts
+                </h2>
+                <p class="text-white">
+                    Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor
+                    mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna
+                    mollis euismod. Donec sed odio dui.
+                </p>
+
+            </div>
+        </div>
+        <!-- Copy right container -->
+        <div class="row">
+            <div class="col-md-12">
+                <p class="text-center text-light copyright">
+                    Copyright</p>
+            </div>
+        </div>
+    </div>
+
+
+
+</body>
+
+</html>

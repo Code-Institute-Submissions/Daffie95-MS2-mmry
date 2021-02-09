@@ -1,0 +1,105 @@
+gamepage.html backup
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> MMrY | A Christmas Memory Game</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="container-fluid">
+	<div class="row">
+		<div class="col-md-12 nav-position">
+			<ul class="nav nav-pills nav-fill">
+				<li class="nav-item">
+					<a class="nav-link" href="testlayout.html">Home</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link active" href="gamepage.html">Play The Game!</a>
+				</li>
+				
+			</ul>
+			<h3 class="text-center text-light">
+				MMrY | The Christmas Memory Game.
+			</h3> 
+			<button type="button" class="btn btn-lg btn-block" ><a href="javascript:history.go(0)" class="button-anchor">Restart The game</a>
+			</button>
+		</div>
+    </div>
+    
+
+    <div class="container col-12 mmry-game">
+        <!-- Christmas Ball Cards -->
+        <div class="memory-card" data-cardframe="bulb">
+            <img class="primary-card" src="img/christmas-bulb.png" alt="Christmas Ball">
+            <img class="secondary-card" src="img/christmas-card-back.png" alt="Merry Christmas">
+        </div>
+        <div class="memory-card" data-cardframe="bulb">
+            <img class="primary-card" src="img/christmas-bulb.png" alt="Christmas Ball">
+            <img class="secondary-card" src="img/christmas-card-back.png" alt="Merry Christmas">
+        </div>
+        <!-- Christmas Candle cards -->
+        <div class="memory-card" data-cardframe="candle">
+            <img class="primary-card" src="img/christmas-candle.png" alt="Christmas Candle">
+            <img class="secondary-card" src="img/christmas-card-back.png" alt="Merry Christmas">
+        </div>
+        <div class="memory-card" data-cardframe="candle">
+            <img class="primary-card" src="img/christmas-candle.png" alt="Christmas Candle">
+            <img class="secondary-card" src="img/christmas-card-back.png" alt="Merry Christmas">
+        </div>
+<!-- Christmas Candy Cards -->
+        <div class="memory-card" data-cardframe="candy">
+            <img class="primary-card" src="img/christmas-candy.png" alt="Christmas Candy">
+            <img class="secondary-card" src="img/christmas-card-back.png" alt="Merry Christmas">
+        </div>
+        <div class="memory-card" data-cardframe="candy">
+            <img class="primary-card" src="img/christmas-candy.png" alt="Christmas Candy">
+            <img class="secondary-card" src="img/christmas-card-back.png" alt="Merry Christmas">
+        </div>
+<!-- Christmas Cup Cards -->
+        <div class="memory-card" data-cardframe="cup">
+            <img class="primary-card" src="img/christmas-cup.png" alt="Christmas Cup">
+            <img class="secondary-card" src="img/christmas-card-back.png" alt="Merry Christmas">
+        </div>
+        <div class="memory-card" data-cardframe="cup">
+            <img class="primary-card" src="img/christmas-cup.png" alt="Christmas Cup">
+            <img class="secondary-card" src="img/christmas-card-back.png" alt="Merry Christmas">
+        </div>
+<!-- Christmas Star Cards -->
+        <div class="memory-card" data-cardframe="star">
+            <img class="primary-card" src="img/christmas-star.png" alt="Christmas Star">
+            <img class="secondary-card" src="img/christmas-card-back.png" alt="Merry Christmas">
+        </div>
+        <div class="memory-card" data-cardframe="star">
+            <img class="primary-card" src="img/christmas-star.png" alt="Christmas Star">
+            <img class="secondary-card" src="img/christmas-card-back.png" alt="Merry Christmas">
+        </div>
+<!-- Christmas Tree Cards -->
+<div class="memory-card" data-cardframe="tree">
+            <img class="primary-card" src="img/christmas-tree.png" alt="Christmas Tree">
+            <img class="secondary-card" src="img/christmas-card-back.png" alt="Merry Christmas">
+        </div>
+        <div class="memory-card" data-cardframe="tree">
+            <img class="primary-card" src="img/christmas-tree.png" alt="Christmas Tree">
+            <img class="secondary-card" src="img/christmas-card-back.png" alt="Merry Christmas">
+        </div>
+    </div>
+    
+<div class="row">
+		<div class="col-md-12">
+			<p class="text-center text-light">
+Copyright			</p>
+		</div>
+	</div>
+</div>
+
+
+    <script src="scripts.js"></script>
+</body>
+
+</html>
