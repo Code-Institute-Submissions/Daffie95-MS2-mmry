@@ -13,9 +13,9 @@ As a small disclaimer this is a continuation of a previously failed project and 
 #### 2. Updates Timeline.
 #### 3. Planned Updates.
 #### 4. Bugs & Errors.
-#### 5. Conclusion.
-#### 6. Additional Comments.
-#### 7. Testing.
+#### 5. Additional Comments.
+#### 6. Testing.
+#### 7. Conclusion.
 
 # 1. Project Planning.
 The idea for this project came to me when I had a discussion with a friend about dementia, and how small and continous activation of the brain does tremendous work to battle dementia.
@@ -158,9 +158,7 @@ Clicking 3 or more cards will continue to unflip cards and break the loop.
 
 >>> Fixed: yes (2021-02-08)
 
-
-# 5. Conclusions.
-# 6. Additional Comments.
+# 5. Additional Comments.
 > ## 1.
 > *2021-02-08 / 22:05*<br>
 **GitPod is having issues with connectivity, preview is buggy and commits are not going trough. I will add "commits" below here for clarity.**<br>
@@ -177,7 +175,7 @@ Clicking 3 or more cards will continue to unflip cards and break the loop.
 > Working on pasting my saved code back into GitPod.<br>
 
 
-# 7. Testing.
+# 6. Testing.
 > ## 1.
 > **GitPod Issue. 2021-02-08 ~23:30**
 >> Roughly at 22:00 GitPod became unresponsive. Preview port became disconnected and Terminal would not connect to my workspace.<br>
@@ -196,7 +194,7 @@ This is simply testing every that it works as it should and did before the hard 
 >>> *scripts.js works like before hard restart:*
 >>>> **Yes, scripts for the game works as intended**
 
-# 2. Final Testing.
+# Final Testing.
 
 > ### Grammar and readability check for text content: 
 > ![Grammer Check Using Grammarly](https://i.gyazo.com/86d87b280f556675177a452ec155a460.png "Grammar Score")
@@ -233,5 +231,8 @@ This is simply testing every that it works as it should and did before the hard 
 
 > ### JaveScript Validator:
 >> unable to find an easy to use JS tester to test the functionality of the scripts.js
-> ### Google Lighthouse/"Think With Google":
->> [Google Lighthouse Report for index.html]()
+> ### Google Lighthouse Diagnosis:
+>> [Google Lighthouse Report for index.html](https://i.gyazo.com/bec1f4918d530fcea22eb70017f485e7.png)
+>> [Google Lighthouse Report for gamepage.html](https://i.gyazo.com/55c715d2553c42c30a7301689076cb65.png)
+
+# 7. Conclusions.
