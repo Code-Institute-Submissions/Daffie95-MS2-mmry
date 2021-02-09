@@ -39,7 +39,8 @@ There will be roughly about 5 different functions needed to create a finished pr
 > ### *1.0 Deploy Version*
 > Removed comments from gamepage.html <br>
 > Removed comments from index.html <br>
->
+> Removed comments from scripts.js <br>
+
 
 
 > ### *0.9*

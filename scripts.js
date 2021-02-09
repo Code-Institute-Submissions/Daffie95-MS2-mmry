@@ -1,13 +1,12 @@
-// selecting the cards in the DOM from the .memory-card class
 const cards = document.querySelectorAll(".memory-card");
 
-//  variables declaring that no cards have been clicked
+
 let flippedCard = false;
 let lockBoard = false;
 let primaryCard;
 let secondaryCard;
 
-// function to flip cards
+
 function flipCard() {
     if (lockBoard) return;
 
@@ -15,7 +14,6 @@ function flipCard() {
     this.classList.add("flip");
 
     if (!flippedCard) {
-        // first click (flip)
         flippedCard = true;
         primaryCard = this;
         console.log("eventListener is active");
@@ -23,7 +21,7 @@ function flipCard() {
 
         return;
     }
-    //  second click (flip)
+
     flippedCard = false;
     secondaryCard = this;
 
@@ -35,7 +33,7 @@ function flipCard() {
 
 function matchCheck() {
     let itsMatch = primaryCard.dataset.cardframe ===
-    secondaryCard.dataset.cardframe;
+        secondaryCard.dataset.cardframe;
     itsMatch ? disableMatchedCards() : flipUnmatchedCards();
 }
 
@@ -67,7 +65,7 @@ function resetCards() {
     [primaryCard, secondaryCard] = [null, null];
 }
 
-// shuffle the cards using internal flex-item positioning
+
 (function shuffle() {
     cards.forEach((card) => {
         let newPos = Math.floor(Math.random() * 12);
